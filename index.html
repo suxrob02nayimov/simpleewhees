@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop2-Step</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="nav-link">
+            <div class="content-account">
+                <h2>Account settings</h2>
+                <a href="">
+                <img src="img/close (1).png" alt="close">
+                </a>
+            </div> 
+           
+       </div>
+    <div data-aos="flip-right">
+        <div class="content-input">
+            <div class="content-image">
+                <img class="image-avatar" src="img/avatar.jpg" width="70px" height="70px" alt="photo avatar">
+            </div>
+           
+                <div class="input">
+                    <label class="input-username">
+                        <p>USERNAME</p>
+                        <input type="text"  placeholder="Enter your username" required>
+                    </label>
+                    <div class="input-name">
+                        <label class="name">
+                            <p>FIRST NAME</p>
+                            <input type="text" placeholder="Enter your first name" required>
+                        </label>
+                        <label class="name">
+                            <p>LAST NAME</p>
+                            <input type="text" required placeholder="Enter your last name">
+                        </label>
+                    </div>
+                    <div class="input-email">
+                        <label class="email">
+                            <p>EMAIL</p>
+                            <input type="email" required placeholder="Enter your email">
+                        </label>
+                    </div>
+                        <div class="textarea"> 
+                            <p>BIO</p>
+                            <textarea  class="bio" name="text" rows="2" minlength="20" maxlength="200" required placeholder="Tell us about yourself"></textarea>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer  class="content-footer">
+            <a href="">Canel</a>
+            <a href="">Save</a>
+        </footer>
+    </div>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+</body>
+</html>
